@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+
+# Golang dependencies
+vendor/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Compiled & build files (Node.js & Golang)
+dist/
+build/
+bin/
+tmp/
+*.exe
+*.out
+
+# Golang cache & IDE config
+*.test
+*.swp
+*.swo
+*.sum
+*.mod
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
